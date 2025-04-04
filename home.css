@@ -1,0 +1,328 @@
+/*
+<a href="https://ibb.co/G4rRzt4K"><img src="https://i.ibb.co/NdGKcmd8/img9.jpg" alt="img9" border="0"></a>
+<a href="https://ibb.co/rGbrb20f"><img src="https://i.ibb.co/vxsns4qv/img3.jpg" alt="img3" border="0"></a>
+<a href="https://ibb.co/KcZhmDM5"><img src="https://i.ibb.co/hx59CcPg/img12.jpg" alt="img12" border="0"></a>
+<a href="https://ibb.co/bj4QXLn5"><img src="https://i.ibb.co/35x4cWHm/img6.jpg" alt="img6" border="0"></a>
+<a href="https://ibb.co/CpP77Q9m"><img src="https://i.ibb.co/wZcWW4QB/img11.jpg" alt="img11" border="0"></a>
+<a href="https://ibb.co/KcZhmDM5"><img src="https://i.ibb.co/hx59CcPg/img12.jpg" alt="img12" border="0"></a>
+<a href="https://ibb.co/RTCYXzkT"><img src="https://i.ibb.co/k2h5LQs2/img13.jpg" alt="img13" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/R4Z3kp2R/img2.webp" alt="img2" border="0"></a>
+<a href="https://ibb.co/Y4957w4h"><img src="https://i.ibb.co/SDTkXGDB/img10.jpg" alt="img10" border="0"></a>
+
+k.jagadeesh8985@gmail.com
+
+ Doctor images
+
+ <a href="https://ibb.co/QFDsnVMv"><img src="https://i.ibb.co/JR3X2THj/pexels-kooldark-14438790.jpg" alt="pexels-kooldark-14438790" border="0"></a>
+ <a href="https://ibb.co/pjcqdLq9"><img src="https://i.ibb.co/8gqk97kS/pexels-kooldark-14438787.jpg" alt="pexels-kooldark-14438787" border="0"></a>
+ <a href="https://ibb.co/DgjLmTH0"><img src="https://i.ibb.co/gFc6QhLk/pexels-nuptune-7966284-1.jpg" alt="pexels-nuptune-7966284-1" border="0"></a>
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+.m {
+  margin-left: auto;
+}
+body{
+  font-family: Robato;
+}
+.nav-btn {
+  height: 40px;
+  width: 80px;
+  outline: none;
+  border: none;
+}
+
+.bg {
+  background-image: url("https://i.ibb.co/NdGKcmd8/img9.jpg");
+  margin-top: 40px;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.head {
+  margin-left: 5%;
+  
+}
+
+.bg-h {
+  color: #d62828;
+  font-family: Regular;
+  font-weight: 1000;
+  font-size: 90px;
+}
+.bg-p {
+  color: black;
+  font-family: Regular;
+  font-weight: 1000;
+}
+h4{
+
+}
+.hide {
+  display: none;
+}
+.se {
+  text-align: left;
+  margin: 0px;
+  box-sizing: 0px;
+}
+@media screen and (max-width: 700px) {
+  .bg {
+    background-image: url("https://i.ibb.co/NdGKcmd8/img9.jpg");
+    margin-top: 40px;
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bg-h{
+    font-size: 45px;
+  }
+  .text{
+    text-align: center;
+  }
+  .about-text {
+    width: 50%;
+  }
+  .about-image {
+    width: 40%;
+  }
+  .disp {
+    display: none;
+  }
+}
+
+/*
+@media screen and (min-width : 700px){
+  .bg {
+    background-image: url("https://i.ibb.co/NdGKcmd8/img9.jpg");
+    margin-top: 40px;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}*/
+
+
+
+.about {
+  padding: 50px;
+  background: #c9e4ca;
+  display: flex;
+}
+
+.aboutdiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.about h2 {
+  font-size: 28px;
+  color: #008cba;
+}
+
+.about-text p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-image {
+  width: 40%;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* --------- doctors--------- */
+.doctors {
+  text-align: center;
+  padding: 50px;
+  background: #f9f9f9;
+  margin: 100px 0px;
+
+}
+
+.doctors h2 {
+  font-size: 28px;
+  color: #008cba;
+  margin-bottom: 20px;
+}
+
+.doctor-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.doctor-card {
+  background: white;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-card img {
+  border-radius: 50%;
+  width: 150px;
+  height: 140px;
+}
+
+.doctor-card h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.doctor-card p {
+  font-size: 16px;
+  color: #7c6f6f;
+}
+
+.se {
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+.card {
+  margin: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.img {
+  width: 100%;
+}
+
+/* --------- services --------- */
+
+.services {
+  text-align: center;
+  padding: 20px;
+  margin: 100px 0px;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-box {
+  background: #e9e7e7;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  border-radius: 10px;
+}
+.ul{
+  text-align: left;
+}
+.services h4{
+  margin: 20px 0px;
+  color: #008cba;
+}
+.appointment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+}
+.appointments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #003049;
+  color: #ffffff;
+  text-align: center;
+
+  min-height: 50vh;
+  width: 80%;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.appointmentslist {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.contact {
+  text-align: center;
+  padding: 30px;
+  background: #2f607a;
+  color: white;
+}
+
+/* --------- login --------- */
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(162, 194, 221);
+}
+.log-in {
+  display: flex;
+  flex-direction: column;
+}
+.btnclose{
+text-align: right;
+}
+
+form h1{
+    text-align: center;
+}
+
+form button{
+  margin: 10px 0px;
+}
+.input{
+    height: 35px;
+    margin-bottom: 10px;
+    outline: none;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+/**/
